@@ -4,7 +4,7 @@
 # ==========================================================
 # Author      : MacRimi
 # Copyright   : (c) 2024 MacRimi
-# License     : MIT (https://raw.githubusercontent.com/MacRimi/ProxMenux/main/LICENSE)
+# License     : MIT (https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/LICENSE)
 # Version     : 1.1
 # Last Updated: 08/07/2025
 # ==========================================================
@@ -16,7 +16,7 @@
 # Special thanks to @Andres_Eduardo_Rojas_Moya for contributing the persistent
 # network naming function and for the original idea.
 # Configuration ============================================
-REPO_URL="https://raw.githubusercontent.com/MacRimi/ProxMenux/main"
+REPO_URL="https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main"
 BASE_DIR="/usr/local/share/proxmenux"
 UTILS_FILE="$BASE_DIR/utils.sh"
 VENV_PATH="/opt/googletrans-env"

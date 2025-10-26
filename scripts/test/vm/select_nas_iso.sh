@@ -36,7 +36,7 @@ function select_nas_iso() {
 
   case "$NAS_TYPE" in
     1)
-      bash <(curl -s "https://raw.githubusercontent.com/MacRimi/ProxMenux/main/scripts/vm/synology.sh")
+      bash <(curl -s "https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/scripts/vm/synology.sh")
       exit 0
       ;;
     2)

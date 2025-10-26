@@ -5,7 +5,7 @@
 # ==========================================================
 # Author      : MacRimi
 # Copyright   : (c) 2024 MacRimi
-# License     : MIT (https://raw.githubusercontent.com/MacRimi/ProxMenux/main/LICENSE)
+# License     : MIT (https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/LICENSE)
 # Version     : 1.0
 # Last Updated: 07/05/2025
 # ==========================================================
@@ -26,7 +26,7 @@
 
 
 
-REPO_URL="https://raw.githubusercontent.com/MacRimi/ProxMenux/main"
+REPO_URL="https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main"
 VM_REPO="$REPO_URL/scripts/vm"
 ISO_REPO="$REPO_URL/scripts/vm"
 MENU_REPO="$REPO_URL/scripts/menus"

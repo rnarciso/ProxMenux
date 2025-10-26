@@ -17,15 +17,15 @@ Now let's add this directory to our datastore.
 
 We'll do it like this:
 
-![Adding new storage](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/backup_cloud/imagen1.png)
+![Adding new storage](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/backup_cloud/imagen1.png)
 
 Next, we specify the name gdrive, the directory we created, and for content, we choose VZDump File.
 
-![Configuring new storage](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/backup_cloud/imagen2.png)
+![Configuring new storage](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/backup_cloud/imagen2.png)
 
 Click on Add, and as we can see, it adds the new directory to our datastore.
 
-![New storage added](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/backup_cloud/imagen3.png)
+![New storage added](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/backup_cloud/imagen3.png)
 
 ## Using rclone for cloud mounting:
 
@@ -84,18 +84,18 @@ Once inside the editor, we just need to add this line as shown in the image:
 @reboot rclone mount gdrive:/PBC /mnt/gdrive --allow-other --allow-non-empty
 ```
 
-![Crontab configuration](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/backup_cloud/imagen4.png)
+![Crontab configuration](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/backup_cloud/imagen4.png)
 
 To finish, press the key combination control + X
 Indicate "Y" + enter, and with this, we now have rclone mounted in our Proxmox with automatic startup and linked to our cloud.
 
 Now we just need to check if we make a backup and select our gdrive as the destination disk.
 
-![Selecting backup destination](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/backup_cloud/imagen5.png)
+![Selecting backup destination](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/backup_cloud/imagen5.png)
 
 We'll verify that when the backup is finished, it will be exactly where we wanted it, in our cloud.
 
-![Backup in cloud storage](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/backup_cloud/imagen6.png)
+![Backup in cloud storage](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/backup_cloud/imagen6.png)
 
 ## Things to keep in mind
 
@@ -103,7 +103,7 @@ The backups that Proxmox makes, unlike Proxmox Backup Server, are not incrementa
 To avoid this, we can add a copy purge system based on the parameters we want.
 For example, we can keep only the last 5 copies as shown in the image.
 
-![Backup retention settings](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/backup_cloud/imagen7.png)
+![Backup retention settings](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/backup_cloud/imagen7.png)
 
 
 

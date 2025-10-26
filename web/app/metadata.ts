@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "ProxMenux",
     images: [
       {
-        url: `https://raw.githubusercontent.com/MacRimi/ProxMenux/main/web/public/main.png`,
+        url: `https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/web/public/main.png`,
         width: 1363,
         height: 735,
       },
@@ -40,13 +40,13 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "ProxMenux",
     description,
-    images: [`https://raw.githubusercontent.com/MacRimi/ProxMenux/main/web/public/main.png`],
+    images: [`https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/web/public/main.png`],
   },
   icons: {
     icon: [
-      { url: "https://raw.githubusercontent.com/MacRimi/ProxMenux/main/web/public/favicon.ico", sizes: "any" },
-      { url: "https://raw.githubusercontent.com/MacRimi/ProxMenux/main/web/public/icon.svg", type: "image/svg+xml" },
+      { url: "https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/web/public/favicon.ico", sizes: "any" },
+      { url: "https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/web/public/icon.svg", type: "image/svg+xml" },
     ],
-    apple: [{ url: "https://raw.githubusercontent.com/MacRimi/ProxMenux/main/web/public//apple-touch-icon.png" }],
+    apple: [{ url: "https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/web/public//apple-touch-icon.png" }],
   },
 }

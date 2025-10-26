@@ -29,11 +29,11 @@ To do this, it's as simple as looking at the disk section we have on our server 
 
 Before adding our disk:
 
-![Before adding USB disk](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/lxc_samba/lxc_3.png)
+![Before adding USB disk](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/lxc_samba/lxc_3.png)
 
 After adding our USB disk:
 
-![After adding USB disk](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/lxc_samba/lxc_4.png)
+![After adding USB disk](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/lxc_samba/lxc_4.png)
 
 ### 1.2 Format the disk
 
@@ -139,13 +139,13 @@ At the end of the file add:
 
 We now have our Samba server installed and our USB drive shared. Let's verify that we can access it:
 
-![Samba server access 1](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/lxc_samba/lxc_1.png)
+![Samba server access 1](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/lxc_samba/lxc_1.png)
 
-![Samba server access 2](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/lxc_samba/lxc_2.png)
+![Samba server access 2](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/lxc_samba/lxc_2.png)
 
 Now we can use our hard drive, use it inside the container and also share its content:
 
-![Using the USB drive](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/lxc_samba/lxc_5.png)
+![Using the USB drive](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/lxc_samba/lxc_5.png)
 
 ---
 

@@ -4,13 +4,13 @@
 # ==========================================================
 # Author      : MacRimi
 # Copyright   : (c) 2024 MacRimi
-# License     : MIT (https://raw.githubusercontent.com/MacRimi/ProxMenux/main/LICENSE)
+# License     : MIT (https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/LICENSE)
 # Version     : 1.1
 # Last Updated: 04/07/2025
 # ==========================================================
 
 # Configuration ============================================
-REPO_URL="https://raw.githubusercontent.com/MacRimi/ProxMenux/main"
+REPO_URL="https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main"
 BASE_DIR="/usr/local/share/proxmenux"
 CONFIG_FILE="$BASE_DIR/config.json"
 CACHE_FILE="$BASE_DIR/cache.json"

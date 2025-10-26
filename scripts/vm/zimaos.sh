@@ -5,7 +5,7 @@
 # ==========================================================
 # Author      : MacRimi
 # Copyright   : (c) 2024 MacRimi
-# License     : MIT (https://raw.githubusercontent.com/MacRimi/ProxMenux/main/LICENSE)
+# License     : MIT (https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/LICENSE)
 # Version     : 1.0
 # Last Updated: 21/08/2025
 # ==========================================================
@@ -22,7 +22,7 @@
 
 
 # Configuration ============================================
-REPO_URL="https://raw.githubusercontent.com/MacRimi/ProxMenux/main"
+REPO_URL="https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main"
 BASE_DIR="/usr/local/share/proxmenux"
 UTILS_FILE="$BASE_DIR/utils.sh"
 VENV_PATH="/opt/googletrans-env"
@@ -1126,7 +1126,7 @@ HTML_DESC="<div align='center'>
 <table style='width: 100%; border-collapse: collapse;'>
 <tr>
 <td style='width: 100px; vertical-align: middle;'>
-<img src='https://raw.githubusercontent.com/MacRimi/ProxMenux/main/images/logo_desc.png' alt='ProxMenux Logo' style='height: 100px;'>
+<img src='https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/images/logo_desc.png' alt='ProxMenux Logo' style='height: 100px;'>
 </td>
 <td style='vertical-align: middle;'>
 <h1 style='margin: 0;'>ZimaOS VM</h1>
@@ -1138,7 +1138,7 @@ HTML_DESC="<div align='center'>
 
 <p>
 <a href='https://macrimi.github.io/ProxMenux/' target='_blank'><img src='https://img.shields.io/badge/📚_Docs-blue' alt='Docs'></a>
-<a href='https://raw.githubusercontent.com/MacRimi/ProxMenux/refs/heads/main/scripts/vm/zimaos.sh' target='_blank'><img src='https://img.shields.io/badge/💻_Code-green' alt='Code'></a>
+<a href='https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/refs/heads/main/scripts/vm/zimaos.sh' target='_blank'><img src='https://img.shields.io/badge/💻_Code-green' alt='Code'></a>
 <a href='$LOADER_URL' target='_blank'><img src='https://img.shields.io/badge/📦_Installer-orange' alt='Loader'></a>
 <a href='https://ko-fi.com/macrimi' target='_blank'><img src='https://img.shields.io/badge/☕_Ko--fi-red' alt='Ko-fi'></a>
 </p>
@@ -1194,7 +1194,7 @@ HTML_DESC="<div align='center'>
 <table style='width: 100%; border-collapse: collapse;'>
 <tr>
 <td style='width: 100px; vertical-align: middle;'>
-<img src='https://raw.githubusercontent.com/MacRimi/ProxMenux/main/images/logo_desc.png' alt='ProxMenux Logo' style='height: 100px;'>
+<img src='https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/images/logo_desc.png' alt='ProxMenux Logo' style='height: 100px;'>
 </td>
 <td style='vertical-align: middle;'>
 <h1 style='margin: 0;'>ZimaOS VM</h1>
@@ -1206,7 +1206,7 @@ HTML_DESC="<div align='center'>
 
 <p>
 <a href='https://macrimi.github.io/ProxMenux/' target='_blank'><img src='https://img.shields.io/badge/📚_Docs-blue' alt='Docs'></a>
-<a href='https://raw.githubusercontent.com/MacRimi/ProxMenux/refs/heads/main/scripts/vm/zimaos.sh' target='_blank'><img src='https://img.shields.io/badge/💻_Code-green' alt='Code'></a>
+<a href='https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/refs/heads/main/scripts/vm/zimaos.sh' target='_blank'><img src='https://img.shields.io/badge/💻_Code-green' alt='Code'></a>
 <a href='$LOADER_URL' target='_blank'><img src='https://img.shields.io/badge/📦_Installer-orange' alt='Loader'></a>
 <a href='https://ko-fi.com/macrimi' target='_blank'><img src='https://img.shields.io/badge/☕_Ko--fi-red' alt='Ko-fi'></a>
 </p>

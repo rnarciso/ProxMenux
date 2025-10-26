@@ -2,7 +2,7 @@
 
 
 # Configuration ============================================
-REPO_URL="https://raw.githubusercontent.com/MacRimi/ProxMenux/main"
+REPO_URL="https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main"
 BASE_DIR="/usr/local/share/proxmenux"
 UTILS_FILE="$BASE_DIR/utils.sh"
 VENV_PATH="/opt/googletrans-env"
@@ -2235,7 +2235,7 @@ install_systemd_service() {
 
     cat > "$WRAPPER_PATH" <<EOW
 #!/bin/bash
-exec bash <(curl -fsSL https://raw.githubusercontent.com/MacRimi/ProxMenux/main/scripts/telegram-notifier.sh) "\$@"
+exec bash <(curl -fsSL https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/scripts/telegram-notifier.sh) "\$@"
 EOW
     chmod +x "$WRAPPER_PATH"
 

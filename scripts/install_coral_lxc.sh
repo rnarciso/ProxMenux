@@ -6,7 +6,7 @@
 # Author      : MacRimi
 # Revision    : @Blaspt (USB passthrough via udev rule with persistent /dev/coral)
 # Copyright   : (c) 2024 MacRimi
-# License     : MIT (https://raw.githubusercontent.com/MacRimi/ProxMenux/main/LICENSE)
+# License     : MIT (https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/LICENSE)
 # Version     : 1.1
 # Last Updated: 16/05/2025
 # ==========================================================
@@ -22,7 +22,7 @@
 # Includes USB passthrough enhancement using persistent udev alias (/dev/coral).
 # ==========================================================
 
-REPO_URL="https://raw.githubusercontent.com/MacRimi/ProxMenux/main"
+REPO_URL="https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main"
 BASE_DIR="/usr/local/share/proxmenux"
 UTILS_FILE="$BASE_DIR/utils.sh"
 VENV_PATH="/opt/googletrans-env"

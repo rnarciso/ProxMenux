@@ -6,7 +6,7 @@ import Link from "next/link"
 import { AlertTriangle, FileCode, Shield } from "lucide-react"
 
 export default function InstallationPage() {
-  const installationCode = `bash -c \"$(wget -qLO - https://raw.githubusercontent.com/MacRimi/ProxMenux/main/install_proxmenux.sh)\"`
+  const installationCode = `bash -c \"$(wget -qLO - https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/install_proxmenux.sh)\"`
 
   return (
     <div className="w-full max-w-4xl mx-auto px-4 py-8 text-gray-900">

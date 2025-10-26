@@ -21,7 +21,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="https://raw.githubusercontent.com/MacRimi/ProxMenux/main/images/logo.png"
+              src="https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/images/logo.png"
               alt="ProxMenux Logo"
               width={32}
               height={32}
