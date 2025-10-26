@@ -30,28 +30,28 @@ const contributors = [
   {
     name: "MALOW",
     role: "Testing",
-    avatar: "https://raw.githubusercontent.com/MacRimi/ProxMenux/main/images/avatars/malow.png",
+    avatar: "https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/images/avatars/malow.png",
   },
   {
     name: "Segarra",
     role: "Testing",
-    avatar: "https://raw.githubusercontent.com/MacRimi/ProxMenux/main/images/avatars/segarra.png",
+    avatar: "https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/images/avatars/segarra.png",
   },
   {
     name: "Aprilia",
     role: "Testing",
-    avatar: "https://raw.githubusercontent.com/MacRimi/ProxMenux/main/images/avatars/aprilia.png",
+    avatar: "https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/images/avatars/aprilia.png",
   },
   {
     name: "Jonatan Castro",
     role: "Testing and reviewer",
-    avatar: "https://raw.githubusercontent.com/MacRimi/ProxMenux/main/images/avatars/jonatancastro.png",
+    avatar: "https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/images/avatars/jonatancastro.png",
     youtubeUrl: "https://www.youtube.com/@JonatanCastro",
   },
   {
     name: "Kamunhas",
     role: "Testing",
-    avatar: "https://raw.githubusercontent.com/MacRimi/ProxMenux/main/images/avatars/Kamunhas.png",
+    avatar: "https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/images/avatars/Kamunhas.png",
   },
 ]
 

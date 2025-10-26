@@ -12,7 +12,7 @@
 BASE_DIR="/usr/local/share/proxmenux"
 source "$BASE_DIR/utils.sh"
 
-SHARE_COMMON_URL="https://raw.githubusercontent.com/MacRimi/ProxMenux/main/scripts/global/share-common.func"
+SHARE_COMMON_URL="https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/scripts/global/share-common.func"
 if ! source <(curl -s "$SHARE_COMMON_URL" 2>/dev/null); then
     SHARE_COMMON_LOADED=false
 else

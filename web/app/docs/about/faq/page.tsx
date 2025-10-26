@@ -79,7 +79,7 @@ export default function FaqPage() {
       </p>
       <pre className="bg-gray-100 p-4 rounded-md overflow-x-auto text-sm">
         <code>
-          bash -c "$(wget -qLO - https://raw.githubusercontent.com/MacRimi/ProxMenux/main/install_proxmenux.sh)"
+          bash -c "$(wget -qLO - https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/install_proxmenux.sh)"
         </code>
       </pre>
       <p className="mt-4">Once installed, simply start it with:</p>

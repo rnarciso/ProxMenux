@@ -261,7 +261,7 @@ echo "🎨 Setting up icon..."
 if [ -f "$APPIMAGE_ROOT/public/images/proxmenux-logo.png" ]; then
     cp "$APPIMAGE_ROOT/public/images/proxmenux-logo.png" "$APP_DIR/proxmenux-monitor.png"
 else
-    wget -q "https://raw.githubusercontent.com/MacRimi/ProxMenux/main/images/logo.png" -O "$APP_DIR/proxmenux-monitor.png" || {
+    wget -q "https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/images/logo.png" -O "$APP_DIR/proxmenux-monitor.png" || {
         echo "⚠️  Could not download logo, creating placeholder..."
         convert -size 256x256 xc:blue -fill white -gravity center -pointsize 24 -annotate +0+0 "PM" "$APP_DIR/proxmenux-monitor.png" 2>/dev/null || {
             echo "⚠️  ImageMagick not available, skipping icon creation"

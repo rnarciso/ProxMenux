@@ -5,7 +5,7 @@
 # ==========================================================
 # Author      : MacRimi
 # Copyright   : (c) 2024 MacRimi
-# License     : MIT (https://raw.githubusercontent.com/MacRimi/ProxMenux/main/LICENSE)
+# License     : MIT (https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/LICENSE)
 # Version     : 1.1
 # Last Updated: 04/06/2025
 # ==========================================================
@@ -20,7 +20,7 @@
 
 
 # Configuration ============================================
-REPO_URL="https://raw.githubusercontent.com/MacRimi/ProxMenux/main"
+REPO_URL="https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main"
 BASE_DIR="/usr/local/share/proxmenux"
 UTILS_FILE="$BASE_DIR/utils.sh"
 VENV_PATH="/opt/googletrans-env"
@@ -33,7 +33,7 @@ load_language
 initialize_cache
 # ==========================================================
 
-HELPERS_JSON_URL="https://raw.githubusercontent.com/MacRimi/ProxMenux/refs/heads/main/json/helpers_cache.json"
+HELPERS_JSON_URL="https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/refs/heads/main/json/helpers_cache.json"
 METADATA_URL="https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/frontend/public/json/metadata.json"
 
 for cmd in curl jq dialog; do

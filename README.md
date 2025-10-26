@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/MacRimi/ProxMenux/blob/main/images/main.png" 
+    <img src="https://github.com/rnarciso/ProxMenux/blob/main/images/main.png"
          alt="ProxMenux Logo" 
          style="max-width: 100%; height: auto;" >
         
@@ -34,16 +34,16 @@
 To install ProxMenux, simply run the following command in your Proxmox server terminal:
 
 ```bash
-bash -c "$(wget -qLO - https://raw.githubusercontent.com/MacRimi/ProxMenux/main/install_proxmenux.sh)"
+bash -c "$(wget -qLO - https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/install_proxmenux.sh)"
 ```
 
 <br>
 
 ⚠️ Be careful when copying scripts from the internet. Always remember to check the source!
 
-📄 You can [review the source code](https://github.com/MacRimi/ProxMenux/blob/main/install_proxmenux.sh) before execution.
+📄 You can [review the source code](https://github.com/rnarciso/ProxMenux/blob/main/install_proxmenux.sh) before execution.
 
-🛡️ All executable links follow our [Code of Conduct](https://github.com/MacRimi/ProxMenux?tab=coc-ov-file#-2-security--code-responsibility).
+🛡️ All executable links follow our [Code of Conduct](https://github.com/rnarciso/ProxMenux?tab=coc-ov-file#-2-security--code-responsibility).
 
 ---
 
@@ -73,7 +73,7 @@ If you find **ProxMenux** useful, consider giving it a ⭐ on GitHub to help oth
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=MacRimi/ProxMenux&type=Date)](https://www.star-history.com/#MacRimi/ProxMenux&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=rnarciso/ProxMenux&type=Date)](https://www.star-history.com/#rnarciso/ProxMenux&Date)
 
 
 <div style="display: flex; justify-content: center; align-items: center;">
@@ -85,9 +85,8 @@ If you find **ProxMenux** useful, consider giving it a ⭐ on GitHub to help oth
 Support the project on Ko-fi!
 
 ## Contributors
-<a href="https://github.com/MacRimi/ProxMenux/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=MacRimi/ProxMenux" />
+<a href="https://github.com/rnarciso/ProxMenux/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=rnarciso/ProxMenux" />
 </a>
 
 [contrib.rocks](https://contrib.rocks).
-

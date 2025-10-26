@@ -10,7 +10,7 @@
 # ==========================================================
 
 # Configuration
-REPO_URL="https://raw.githubusercontent.com/MacRimi/ProxMenux/main"
+REPO_URL="https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main"
 BASE_DIR="/usr/local/share/proxmenux"
 UTILS_FILE="$BASE_DIR/utils.sh"
 
@@ -21,7 +21,7 @@ if [[ -f "$UTILS_FILE" ]]; then
 fi
 
 
-SHARE_COMMON_URL="https://raw.githubusercontent.com/MacRimi/ProxMenux/main/scripts/global/share-common.func"
+SHARE_COMMON_URL="https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/scripts/global/share-common.func"
 if ! source <(curl -s "$SHARE_COMMON_URL" 2>/dev/null); then
     SHARE_COMMON_LOADED=false
 else

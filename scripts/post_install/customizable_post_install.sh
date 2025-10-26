@@ -5,7 +5,7 @@
 # ==========================================================
 # Author      : MacRimi
 # Copyright   : (c) 2024 MacRimi
-# License     : MIT (https://raw.githubusercontent.com/MacRimi/ProxMenux/main/LICENSE)
+# License     : MIT (https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/LICENSE)
 # Version     : 1.3
 # Last Updated: 30/06/2025
 # ==========================================================
@@ -49,7 +49,7 @@
 
 
 # Configuration
-REPO_URL="https://raw.githubusercontent.com/MacRimi/ProxMenux/main"
+REPO_URL="https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main"
 BASE_DIR="/usr/local/share/proxmenux"
 UTILS_FILE="$BASE_DIR/utils.sh"
 VENV_PATH="/opt/googletrans-env"
@@ -3133,7 +3133,7 @@ configure_fastfetch() {
             1)
                 msg_info "$(translate "Downloading ProxMenux logo...")"
                 local proxmenux_logo_path="$logos_dir/ProxMenux.txt"
-                if wget -qO "$proxmenux_logo_path" "https://raw.githubusercontent.com/MacRimi/ProxMenux/main/images/logos_txt/logo.txt"; then
+                if wget -qO "$proxmenux_logo_path" "https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/images/logos_txt/logo.txt"; then
                     jq --arg path "$proxmenux_logo_path" '. + {logo: $path}' "$fastfetch_config" > "${fastfetch_config}.tmp" && mv "${fastfetch_config}.tmp" "$fastfetch_config"
                     msg_ok "$(translate "ProxMenux logo applied")"
                 else
@@ -3150,7 +3150,7 @@ configure_fastfetch() {
             3)
                 msg_info "$(translate "Downloading Helper-Scripts logo...")"
                 local helper_scripts_logo_path="$logos_dir/Helper_Scripts.txt"
-                if wget -qO "$helper_scripts_logo_path" "https://raw.githubusercontent.com/MacRimi/ProxMenux/main/images/logos_txt/Helper_Scripts.txt"; then
+                if wget -qO "$helper_scripts_logo_path" "https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/images/logos_txt/Helper_Scripts.txt"; then
                     jq --arg path "$helper_scripts_logo_path" '. + {logo: $path}' "$fastfetch_config" > "${fastfetch_config}.tmp" && mv "${fastfetch_config}.tmp" "$fastfetch_config"
                     msg_ok "$(translate "Helper-Scripts logo applied")"
                 else
@@ -3161,7 +3161,7 @@ configure_fastfetch() {
             4)
                 msg_info "$(translate "Downloading Home-Labs-Club logo...")"
                 local home_lab_club_logo_path="$logos_dir/home_labsclub.txt"
-                if wget -qO "$home_lab_club_logo_path" "https://raw.githubusercontent.com/MacRimi/ProxMenux/main/images/logos_txt/home_labsclub.txt"; then
+                if wget -qO "$home_lab_club_logo_path" "https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/images/logos_txt/home_labsclub.txt"; then
                     jq --arg path "$home_lab_club_logo_path" '. + {logo: $path}' "$fastfetch_config" > "${fastfetch_config}.tmp" && mv "${fastfetch_config}.tmp" "$fastfetch_config"
                     msg_ok "$(translate "Home-Lab-Club logo applied")"
                 else
@@ -3172,7 +3172,7 @@ configure_fastfetch() {
             5)
                 msg_info "$(translate "Downloading Proxmology logo...")"
                 local proxmology_logo_path="$logos_dir/proxmology.txt"
-                if wget -qO "$proxmology_logo_path" "https://raw.githubusercontent.com/MacRimi/ProxMenux/main/images/logos_txt/proxmology.txt"; then
+                if wget -qO "$proxmology_logo_path" "https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/images/logos_txt/proxmology.txt"; then
                     jq --arg path "$proxmology_logo_path" '. + {logo: $path}' "$fastfetch_config" > "${fastfetch_config}.tmp" && mv "${fastfetch_config}.tmp" "$fastfetch_config"
                     msg_ok "$(translate "Proxmology logo applied")"
                 else

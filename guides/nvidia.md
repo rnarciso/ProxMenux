@@ -22,7 +22,7 @@ cat /etc/modprobe.d/blacklist.conf
 ```
 The example image shows that "blacklist nouveau" is already added to the blacklist.
 
-![Blacklist check](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/nvidia/nvidia-2.png)
+![Blacklist check](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/nvidia/nvidia-2.png)
 
 If in our case it doesn't show: blacklist nouveau
 
@@ -100,7 +100,7 @@ https://download.nvidia.com/XFree86/Linux-x86_64/525.116.03/
 
 Once inside the directory, we copy the link of the installer that ends with the .run extension
 
-![NVIDIA driver download](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/nvidia/nvidia-1.png)
+![NVIDIA driver download](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/nvidia/nvidia-1.png)
 
 For example:
 ```
@@ -187,11 +187,11 @@ We check that the driver is installed and the service is running:
 ```
 nvidia-smi
 ```
-![NVIDIA SMI output](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/nvidia/nvidia-3.png)
+![NVIDIA SMI output](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/nvidia/nvidia-3.png)
 ```
 systemctl status nvidia-persistenced
 ```
-![NVIDIA persistence service status](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/nvidia/nvidia-4.png)
+![NVIDIA persistence service status](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/nvidia/nvidia-4.png)
 
 ### - Patch:
 
@@ -203,7 +203,7 @@ git clone https://github.com/keylase/nvidia-patch.git
 cd nvidia-patch
 ./patch.sh
 ```
-![NVIDIA patch application](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/nvidia/nvidia-5.png)
+![NVIDIA patch application](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/nvidia/nvidia-5.png)
 
 ## 2- Configure the drivers to be able to use them in any LXC.
 
@@ -211,7 +211,7 @@ First, we need to obtain this data:
 ```
 ls -l /dev/nv*
 ```
-![NVIDIA device list](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/nvidia/nvidia-6.png)
+![NVIDIA device list](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/nvidia/nvidia-6.png)
 
 Let's say, for example, that we're going to use the Plex LXC from tteck's script with ID100. If we have it running, we turn it off.
 ```
@@ -238,7 +238,7 @@ lxc.mount.entry: /dev/nvidia-uvm-tools dev/nvidia-uvm-tools none bind,optional,c
 lxc.mount.entry: /dev/nvram dev/nvram none bind,optional,create=file
 ```
 
-![LXC configuration](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/nvidia/nvidia-7.png)
+![LXC configuration](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/nvidia/nvidia-7.png)
 
 We save:
 ctrl + x.
@@ -264,7 +264,7 @@ chmod +x NVIDIA-Linux-x86_64-525.116.03.run
 
 When this screen appears, we select everything by default, each time it asks us.
 
-![NVIDIA driver installation](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/nvidia/nvidia-8.png)
+![NVIDIA driver installation](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/nvidia/nvidia-8.png)
 
 Once the installation is finished, we check that everything is correct
 
@@ -272,21 +272,21 @@ Once the installation is finished, we check that everything is correct
 nvidia-smi
 ```
 
-![NVIDIA SMI in LXC](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/nvidia/nvidia-9.png)
+![NVIDIA SMI in LXC](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/nvidia/nvidia-9.png)
 
 ```
 ls -l /dev/nv*
 ```
 
-![NVIDIA devices in LXC](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/nvidia/nvidia-10.png)
+![NVIDIA devices in LXC](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/nvidia/nvidia-10.png)
 
 ## We check that Plex uses the graphics card.
 
 As we can see, the Plex LXC container makes use of the Nvidia graphics card from our Proxmox host.
 
-![Plex using NVIDIA GPU 1](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/nvidia/nvidia-11.png)
+![Plex using NVIDIA GPU 1](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/nvidia/nvidia-11.png)
 
-![Plex using NVIDIA GPU 2](https://raw.githubusercontent.com/MacRimi/ProxMenux/main/guides/nvidia/nvidia-12.png)
+![Plex using NVIDIA GPU 2](https://ghproxy.net/https://raw.githubusercontent.com/rnarciso/ProxMenux/main/guides/nvidia/nvidia-12.png)
 
 If we want any LXC to use our graphics card, we simply follow the same steps.
 
